@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "sachinkreeti <sgupta@kreeti.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^5.36.0",
     "webpack-cli": "^4.6.0"
