@@ -1,0 +1,14 @@
+$font-size: 20px;
+$green: green;
+$white: white;
+
+.button-style {
+  font-size: $font-size;
+  color: $white;
+  background-color: $green;
+}
+
+.para-style {
+  font-size: $font-size;
+  color: $green;
+}
