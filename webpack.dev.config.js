@@ -11,6 +11,12 @@ module.exports = {
     // publicPath: "http://some-cdn-where-image-is-store/",
   },
   mode: "development",
+  devServer: {
+    contentBase: path.resolve(__dirname, ".dist"),
+    index: "index.html",
+    port: 9000,
+    writeToDisk: true,
+  },
   module: {
     rules: [
       {
