@@ -12,7 +12,7 @@ module.exports = {
     publicPath: "",
     // publicPath: "http://some-cdn-where-image-is-store/",
   },
-  mode: "production",
+  mode: "development",
   module: {
     rules: [
       {
